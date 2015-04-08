@@ -1,0 +1,7 @@
+{
+  "name": "panda-roux-mixit15",
+  "version": "0.0.1",
+  "dependencies": {
+    "keymaster": "~1.6.3"
+  }
+}
