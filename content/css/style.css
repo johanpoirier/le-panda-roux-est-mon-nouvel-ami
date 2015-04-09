@@ -71,3 +71,22 @@ img.portrait {
     height: auto;
     width: 240px;
 }
+
+#title img {
+    height: 60%;
+    width: auto;
+}
+
+#title h1 {
+    font-size: 3.5vw;
+}
+
+#title h2 {
+    font-size: 2vw;
+}
+
+#johan span {
+    justify-content: flex-start;
+    font-size: 2vw;
+    padding: 3rem;
+}
