@@ -59,7 +59,7 @@ div.row {
     width: 100%;
 }
 
-span {
+div.row > span {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -109,7 +109,36 @@ img.portrait {
     width: 240px;
 }
 
+.cloud {
+    text-align: center;
+    width: 100%;
+}
 
+.cloud > span {
+    background-color: #9f9f9f;
+    border-radius: 5px;
+    color: white;
+    font-size: 3vmin;
+    font-weight: bold;
+    line-height: 10vmin;
+    padding: 1.3rem 2rem;
+    width: auto;
+    white-space: nowrap;
+}
+
+.cloud > span.priviledged {
+    background-color: #00AACC;
+}
+
+.cloud > span.certified {
+    background-color: #FF4E00;
+}
+
+.cloud > span.not-standard {
+    font-size: 2.5vmin;
+    font-weight: normal;
+    padding: 1rem;
+}
 
 /******************* SLIDES ****************/
 
@@ -130,11 +159,6 @@ img.portrait {
 
 #topics {
     padding-bottom: 0;
-}
-
-#johan, #johan-background, #johan-tea {
-    background-color: #00AACC;
-    color: white;
 }
 
 #title, #firefoxos-data, #firefoxos-architecture {
