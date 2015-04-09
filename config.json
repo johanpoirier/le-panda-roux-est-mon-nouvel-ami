@@ -7,9 +7,75 @@
   "ascent": 850,
   "glyphs": [
     {
+      "uid": "c64623255a4a7c72436b199b05296c4f",
+      "css": "emo-happy",
+      "code": 59396,
+      "src": "fontelico"
+    },
+    {
+      "uid": "fd59eac4d575b48eb156590b63a355fd",
+      "css": "emo-sleep",
+      "code": 59398,
+      "src": "fontelico"
+    },
+    {
+      "uid": "cbc328d1c779a2b9e3b1199d904199a5",
+      "css": "emo-grin",
+      "code": 59399,
+      "src": "fontelico"
+    },
+    {
+      "uid": "62c089cb34e74b3a1200bc7f5314eb4e",
+      "css": "firefox",
+      "code": 59402,
+      "src": "fontelico"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59405,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9affc98d652b86628d650ee58dbf0357",
+      "css": "basket",
+      "code": 59408,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "531bc468eecbb8867d822f1c11f1e039",
+      "css": "calendar",
+      "code": 59406,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "197375a3cea8cb90b02d06e4ddf1433d",
+      "css": "globe",
+      "code": 59403,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8aa99bc60f3553bb3e31b73dd6e744c8",
+      "css": "rocket",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "30b79160618d99ce798e4bd11cafe3fe",
+      "css": "food",
+      "code": 59407,
+      "src": "fontawesome"
+    },
+    {
       "uid": "0f6a2573a7b6df911ed199bb63717e27",
       "css": "github",
       "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ff44f01f60948555026580eedf1e39bb",
+      "css": "html5",
+      "code": 59395,
       "src": "fontawesome"
     },
     {
@@ -17,6 +83,36 @@
       "css": "twitter",
       "code": 59394,
       "src": "fontawesome"
+    },
+    {
+      "uid": "3def559c3c39b8500882e02892b7daa8",
+      "css": "picture",
+      "code": 59401,
+      "src": "entypo"
+    },
+    {
+      "uid": "767fede84586366cd7d6c835be745454",
+      "css": "mobile",
+      "code": 59400,
+      "src": "entypo"
+    },
+    {
+      "uid": "8fc56819afcd07e2786e34f18d39b71b",
+      "css": "book",
+      "code": 59392,
+      "src": "iconic"
+    },
+    {
+      "uid": "7480a298ce334eef70193895e799c3fd",
+      "css": "music",
+      "code": 59404,
+      "src": "elusive"
+    },
+    {
+      "uid": "43be174b82af7559a7550ea38650ae4f",
+      "css": "css",
+      "code": 59409,
+      "src": "elusive"
     }
   ]
 }
