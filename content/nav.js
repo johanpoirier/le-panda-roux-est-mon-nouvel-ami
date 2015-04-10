@@ -1,9 +1,10 @@
 (function () {
-    var sections, currentSection, indexSection = 0,
+    var sections, indexSection = 0,
         main = window.document.querySelector("main");
 
     var changeSlide = function () {
         main.style.transform = "translateY(-" + (indexSection * window.document.body.offsetHeight) + "px)";
+        window.history.pushState({ topic: sections[indexSection].id }, null, "#" + sections[indexSection].id);
     };
 
     var prevSlide = function () {
@@ -22,7 +23,6 @@
 
     var startApp = function () {
         sections = document.querySelectorAll("section");
-        currentSection = sections[indexSection];
         key('left, esc', prevSlide);
         key('right, space, enter', nextSlide);
     };
