@@ -116,12 +116,13 @@ img.portrait {
 
 .cloud > span {
     background-color: #9f9f9f;
-    border-radius: 5px;
+    border: 0.25rem solid gold;
+    border-radius: 1rem;
     color: white;
-    font-size: 3vmin;
-    font-weight: bold;
-    line-height: 10vmin;
-    padding: 1.3rem 2rem;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    line-height: 14vmin;
+    padding: 1rem;
     width: auto;
     white-space: nowrap;
 }
@@ -135,9 +136,8 @@ img.portrait {
 }
 
 .cloud > span.not-standard {
-    font-size: 2.5vmin;
+    border: none;
     font-weight: normal;
-    padding: 1rem;
 }
 
 /******************* SLIDES ****************/
@@ -150,7 +150,7 @@ img.portrait {
 }
 
 #title h1 {
-    font-size: 3.5vw;
+    font-size: 4vw;
 }
 
 #title h2 {
