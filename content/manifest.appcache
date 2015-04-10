@@ -1,0 +1,24 @@
+CACHE MANIFEST
+# version 3
+
+CACHE:
+images/firefoxos.png
+images/johan.jpg
+images/panda-roux.png
+images/devices/flame.png
+images/icon/favicon.ico
+images/teareader/portrait_bookcase_covers.png
+images/teareader/portrait_bookcase_drawer.png
+images/teareader/portrait_book_reading.png
+images/teareader/portrait_book_ui.png
+font/FiraSans-Light.eot
+font/FiraSans-Light.ttf
+font/FiraSans-Light.woff
+font/pandaroux.eot
+font/pandaroux.svg
+font/pandaroux.ttf
+font/pandaroux.woff
+vendor/keymaster/keymaster.js
+
+NETWORK:
+*

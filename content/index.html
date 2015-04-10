@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" manifest="/manifest.appcache">
 <head>
     <title>Le panda roux est mon nouvel ami - Mix-IT 2015</title>
     <link rel="stylesheet" href="css/style.css">
@@ -98,7 +98,7 @@
             <li>Open Source > code sur GitHub</li>
             <li>Gonk > noyau Linux basé sur AOSP</li>
             <li>Gecko > moteur de rendu</li>
-            <li class="orange">Gaia > interface utilisateur</li>
+            <li class="orange-text">Gaia > interface utilisateur</li>
         </ul>
     </section>
 
@@ -168,27 +168,94 @@
     </section>
 
     <section id="tea-reader" class="orange">
-
+        <h2>Tea Reader</h2>
+        <ul>
+            <li><i class="icon-book"></i> Application de lecture d'ePub 2/3</li>
+            <li><i class="icon-lock"></i> Pas de gestion de DRM</li>
+            <li><i class="icon-library"></i> Bibliothèque utilisateur</li>
+            <li><i class="icon-engine"></i> Moteur de lecture Readium</li>
+        </ul>
     </section>
 
     <section id="tea-reader-screenshots" class="orange">
-
+        <img src="images/teareader/portrait_bookcase_covers.png" alt="Bibliothèque">
+        <img src="images/teareader/portrait_bookcase_drawer.png" alt="Menu">
+        <img src="images/teareader/portrait_book_reading.png" alt="Lecture">
     </section>
 
-    <section id="mozilla-reco">
+    <section id="tea-reader-screenshots-2" class="orange">
+        <img src="images/teareader/portrait_book_ui.png" alt="Menu lecture">
+        <img src="images/teareader/portrait_book_bookmarks.png" alt="Signets">
+        <img src="images/teareader/portrait_book_options.png" alt="Options">
+    </section>
 
+    <section id="mozilla-reco" class="grey-text">
+        <h2>Recommandations de Mozilla</h2>
+        <ul>
+            <li><a href="https://www.mozilla.org/en-US/styleguide/products/firefox-os/" target="_blank">Firefox OS
+                Guidelines</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/Apps/Design/Firefox_OS_building_blocks" target="_blank">Firefox
+                OS Building Blocks</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/Apps/Design/Firefox_OS_icon_font" target="_blank">Firefox
+                OS icon font</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/Apps/Quickstart/Application_setup"><em>(RecRoom)</em> Ember
+                CLI + ember-cli-fxos</a></li>
+        </ul>
     </section>
 
     <section id="my-js-skills" class="green">
-
+        <h2>Ce que je connais</h2>
+        <ul>
+            <li>Javascript pur</li>
+            <li>Backbone.js</li>
+        </ul>
+        <h3>Ce que j'ai envie d'essayer</h3>
+        <ul>
+            <li>Ember.js</li>
+            <li>React.js</li>
+        </ul>
     </section>
 
-    <section id="firefox-os-devices">
+    <section id="firefox-os-devices" class="grey-text">
+        <h2>Appareils disponibles</h2>
 
+        <div class="cloud">
+            <img src="images/devices/alcatel-onetouchfire.png"/>
+            <img src="images/devices/alcatel-onetouchfirec.png"/>
+            <img src="images/devices/alcatel-onetouchfirec2g.png"/>
+            <img src="images/devices/alcatel-onetouchfiree.png"/>
+            <img src="images/devices/au-fx0.png"/>
+            <img src="images/devices/cherrymobile-ace.png"/>
+            <img src="images/devices/huawei-y300.png"/>
+            <img src="images/devices/intex-cloudfx.png"/>
+            <img src="images/devices/lg-fireweb.png"/>
+            <img src="images/devices/spice-fire-one.png"/>
+            <img src="images/devices/symphony-gofoxf15.png"/>
+            <img src="images/devices/zen-105fire.png"/>
+            <img src="images/devices/zte-open.png"/>
+            <img src="images/devices/zte-open2.png"/>
+            <img src="images/devices/zte-openc.png"/>
+        </div>
     </section>
 
-    <section id="flame">
-
+    <section id="flame" class="grey-text">
+        <h2>Flame : le téléphone de référence</h2>
+        <div class="flame-specs">
+            <span>
+                <ul>
+                    <li>1.2GHZ Dual core processor</li>
+                    <li>256Mo à 1Go de RAM</li>
+                    <li>Ecran 4.5" capacitive touch</li>
+                    <li>FWVGA, 854 × 480, PX=1.5</li>
+                    <li>Bluetooth 3.0</li>
+                    <li>NFC</li>
+                    <li>Front and Rear cameras</li>
+                </ul>
+            </span>
+            <span>
+                <img src="images/devices/flame.png" alt="Flame"/>
+            </span>
+        </div>
     </section>
 
     <section id="pocs-startup-time" class="green">
@@ -208,7 +275,16 @@
     </section>
 
     <section id="csp-priviledged-app" class="green">
-
+        <h2><a href="https://developer.mozilla.org/fr/Apps/PSC">CSP des apps privilégiées</a></h2>
+        <ul>
+            <li><i class="icon-roadblock"></i> scripts distants interdits</li>
+            <li><i class="icon-roadblock"></i> scripts inline interdits</li>
+            <li><i class="icon-roadblock"></i> eval interdit</li>
+            <li><i class="icon-roadblock"></i> constructeur de fonction interdit</li>
+            <li><i class="icon-roadblock"></i> Web Workers distants interdits</li>
+            <li><i class="icon-roadblock"></i> plugins interdits</li>
+            <li><i class="icon-roadblock"></i> styles distants interdits</li>
+        </ul>
     </section>
 
     <section id="readium" class="green">
@@ -220,7 +296,8 @@
     </section>
 
     <section id="thank-you">
-
+        <h2>Merci !</h2>
+        <h4>Des questions ?</h4>
     </section>
 
 </main>

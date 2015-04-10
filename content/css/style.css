@@ -43,6 +43,23 @@ section {
     padding-bottom: 10rem;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:after {
+    content: '>';
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0.6;
+    padding-left: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
 }
@@ -192,8 +209,38 @@ img.portrait {
     color: #ff0000;
 }
 
-
 #johan-ffos-love div {
     height: 33%;
     width: auto;
+}
+
+#tea-reader-screenshots, #tea-reader-screenshots-2 {
+    flex-direction: row;
+}
+
+#tea-reader-screenshots img, #tea-reader-screenshots-2 img {
+    padding: 0 0.5rem;
+}
+
+#my-js-skills ul {
+    list-style: square;
+    margin-top: 0;
+}
+
+#flame img {
+    display: block;
+    height: auto;
+    width: 200px;
+}
+
+.flame-specs {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#thank-you {
+    font-size: 5rem;
 }
