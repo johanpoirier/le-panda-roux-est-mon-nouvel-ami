@@ -82,6 +82,11 @@ span.row {
     color: white;
 }
 
+.blue-text {
+    background-color: white;
+    color: #00AACC;
+}
+
 .green {
     background-color: #5F9B0A;
     color: white;
@@ -92,13 +97,17 @@ span.row {
     color: white;
 }
 
-li.orange {
-    background-color: inherit;
+.orange-text {
+    background-color: white;
     color: #FF4E00;
 }
 
 .grey {
     background-color: #C7C7C7;
+}
+
+.grey-text {
+    color: #333333;
 }
 
 .brick {
@@ -175,9 +184,16 @@ img.portrait {
 
 #johan-ffos-love {
     color: #FF4E00;
-    font-size: 7vw;
+    font-size: 10vw;
+    padding-bottom: 0;
 }
 
+#johan-ffos-love .icon-heart {
+    color: #ff0000;
+}
+
+
 #johan-ffos-love div {
+    height: 33%;
     width: auto;
 }
