@@ -31,9 +31,21 @@
       "src": "fontelico"
     },
     {
+      "uid": "9c2b737b16ae2c8d66b7bfd29ba5ecd8",
+      "css": "chrome",
+      "code": 59415,
+      "src": "fontelico"
+    },
+    {
       "uid": "d73eceadda1f594cec0536087539afbf",
       "css": "heart",
       "code": 59410,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "acf41aa4018e58d49525665469e35665",
+      "css": "thumbs-up",
+      "code": 59416,
       "src": "fontawesome"
     },
     {

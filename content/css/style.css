@@ -173,6 +173,51 @@ img.portrait {
     font-weight: normal;
 }
 
+.jauge {
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: 2rem;
+    padding: 0.3rem 1rem;
+    position: relative;
+    text-align: right;
+    width: 80%;
+}
+
+.jauge > * {
+    color: #ffffff;
+    font-size: 2rem;
+    height: 100%;
+    left: 0;
+    line-height: 3.3rem;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+
+.p10 {
+    background-color: green;
+    width: 10%;
+}
+
+.p15 {
+    background-color: #d1ff7b;
+    color: #333333;
+    width: 15%;
+}
+
+.p75 {
+    background-color: #ff8401;
+    width: 78%;
+}
+
+.perror {
+    background-color: darkred;
+    font-size: inherit;
+    padding-right: 1rem;
+    text-align: right;
+    width: 100%;
+}
+
 /******************* SLIDES ****************/
 
 #title img {
@@ -227,6 +272,10 @@ img.portrait {
     margin-top: 0;
 }
 
+#firefox-os-compatible-devices img {
+    padding: 2rem;
+}
+
 #flame img {
     display: block;
     height: auto;
@@ -258,15 +307,15 @@ img.portrait {
     font-size: 5rem;
 }
 
-#webide, #webide-debug, #webide-monitor {
+#webide, #webide-debug, #webide-monitor, #chrome-devtools {
     padding-bottom: 0px;
 }
 
-#webide h2 {
+#webide h2, #chrome-devtools h2 {
     margin: 1rem 0;
 }
 
-#webide img, #webide-debug img, #webide-monitor img {
+#webide img, #webide-debug img, #webide-monitor img, #chrome-devtools img {
     height: auto;
     max-width: none;
     width: auto;
