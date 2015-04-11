@@ -246,6 +246,28 @@ img.portrait {
     max-width: 16rem;
 }
 
+#tea-reader-stack span {
+    background: none;
+    border: none;
+    color: #333333;
+    font-size: 4rem;
+    text-shadow: 1px 1px 5px #000;
+}
+
 #thank-you {
     font-size: 5rem;
+}
+
+#webide, #webide-debug, #webide-monitor {
+    padding-bottom: 0px;
+}
+
+#webide h2 {
+    margin: 1rem 0;
+}
+
+#webide img, #webide-debug img, #webide-monitor img {
+    height: auto;
+    max-width: none;
+    width: auto;
 }
