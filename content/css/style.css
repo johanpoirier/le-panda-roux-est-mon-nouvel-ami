@@ -176,19 +176,21 @@ img.portrait {
 .jauge {
     background-color: #333333;
     color: #ffffff;
+    height: 4.5rem;
+    line-height: 4rem;
     margin-top: 2rem;
     padding: 0.3rem 1rem;
     position: relative;
     text-align: right;
-    width: 80%;
+    width: 94%;
 }
 
 .jauge > * {
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 2.5rem;
     height: 100%;
     left: 0;
-    line-height: 3.3rem;
+    line-height: 4.5rem;
     position: absolute;
     text-align: center;
     top: 0;
@@ -206,12 +208,12 @@ img.portrait {
 }
 
 .p75 {
-    background-color: #ff8401;
+    background-color: #ff2902;
     width: 78%;
 }
 
 .perror {
-    background-color: darkred;
+    background-color: #540000;
     font-size: inherit;
     padding-right: 1rem;
     text-align: right;
