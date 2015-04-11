@@ -1,0 +1,10 @@
+{
+  "name": "panda-roux",
+  "version": "0.0.1",
+  "repository": "https://dst17@bitbucket.org/dst17/panda-roux-mixit15.git",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0"
+  }
+}

@@ -241,6 +241,11 @@ img.portrait {
     width: 100%;
 }
 
+#tea-reader-stack img {
+    max-height: 12rem;
+    max-width: 16rem;
+}
+
 #thank-you {
     font-size: 5rem;
 }
