@@ -25,6 +25,7 @@ html, body, main, section {
 }
 
 body {
+    cursor: none;
     font-size: 8vmin;
     overflow: hidden;
 }
@@ -244,21 +245,6 @@ img.portrait {
 
 #title, #firefoxos-data, #firefoxos-architecture {
     color: #333333;
-}
-
-#johan-ffos-love {
-    color: #FF4E00;
-    font-size: 10vw;
-    padding-bottom: 0;
-}
-
-#johan-ffos-love .icon-heart {
-    color: #ff0000;
-}
-
-#johan-ffos-love div {
-    height: 33%;
-    width: auto;
 }
 
 #tea-reader-screenshots, #tea-reader-screenshots-2 {
