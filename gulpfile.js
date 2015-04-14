@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
+var jscs = require('gulp-jscs');
 
 gulp.task('reload', function () {
     return gulp.src('./content')
@@ -15,4 +16,9 @@ gulp.task('web-server', function () {
 
 gulp.task('watch', ['web-server'], function () {
     gulp.watch('./content/**/*', ['reload']);
+});
+
+gulp.task('default', function () {
+    return gulp.src('./content/nav.js')
+        .pipe(jscs());
 });

@@ -197,15 +197,21 @@ img.portrait {
     top: 0;
 }
 
-.p10 {
+.p5 {
     background-color: green;
     width: 10%;
 }
 
-.p15 {
+.p20 {
     background-color: #d1ff7b;
     color: #333333;
-    width: 15%;
+    width: 18%;
+}
+
+.p40 {
+    background-color: #fff878;
+    color: #333333;
+    width: 40%;
 }
 
 .p75 {

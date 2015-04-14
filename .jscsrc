@@ -1,0 +1,11 @@
+{
+	"preset": "google",
+	"requireSpaceBeforeBlockStatements": null,
+	"disallowSpacesInsideObjectBrackets": null,
+	"disallowSpacesInAnonymousFunctionExpression": null,
+	"maximumLineLength": null,
+	"requireLineFeedAtFileEnd": null,
+	"disallowSpacesInsideParentheses": null,
+
+  	"excludeFiles": [ "./content/vendor/**" ]
+}
