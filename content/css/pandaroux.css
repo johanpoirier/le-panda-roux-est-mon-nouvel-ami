@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'pandaroux';
-  src: url('../font/pandaroux.eot?59644232');
-  src: url('../font/pandaroux.eot?59644232#iefix') format('embedded-opentype'),
-       url('../font/pandaroux.woff?59644232') format('woff'),
-       url('../font/pandaroux.ttf?59644232') format('truetype'),
-       url('../font/pandaroux.svg?59644232#pandaroux') format('svg');
+  src: url('../font/pandaroux.eot?75448366');
+  src: url('../font/pandaroux.eot?75448366#iefix') format('embedded-opentype'),
+       url('../font/pandaroux.woff?75448366') format('woff'),
+       url('../font/pandaroux.ttf?75448366') format('truetype'),
+       url('../font/pandaroux.svg?75448366#pandaroux') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'pandaroux';
-    src: url('../font/pandaroux.svg?59644232#pandaroux') format('svg');
+    src: url('../font/pandaroux.svg?75448366#pandaroux') format('svg');
   }
 }
 */
@@ -80,3 +80,5 @@
 .icon-chrome:before { content: '\e817'; } /* '' */
 .icon-thumbs-up:before { content: '\e818'; } /* '' */
 .icon-question:before { content: '\e819'; } /* '' */
+.icon-link-ext:before { content: '\e81a'; } /* '' */
+.icon-level-down:before { content: '\e81b'; } /* '' */

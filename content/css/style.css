@@ -50,9 +50,11 @@ a {
 }
 
 a:after {
-    content: '>';
-    font-size: 2rem;
-    font-weight: bold;
+    content: '\e81a';
+    font-family: "pandaroux";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.9rem;
     opacity: 0.6;
     padding-left: 1rem;
 }
@@ -143,6 +145,32 @@ img.portrait {
     width: auto;
 }
 
+.legend {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.legend-item {
+    color: #9f9f9f;
+    padding: 1rem;
+}
+
+.legend-item.certified {
+    color: #FF4E00;
+}
+
+.legend-item.priviledged {
+    color: #00AACC;
+}
+
+.legend-item.standard {
+    border: 0.25rem solid gold;
+    border-radius: 1rem;
+    color: #000000;
+    padding: 0.75rem 1rem 1.25rem 1rem;
+}
+
 .cloud {
     text-align: center;
     width: 100%;
@@ -155,7 +183,7 @@ img.portrait {
     color: white;
     font-size: 2.5vw;
     font-weight: bolder;
-    line-height: 14vmin;
+    line-height: 12vmin;
     padding: 1rem;
     width: auto;
     white-space: nowrap;
@@ -253,6 +281,11 @@ img.portrait {
     color: #333333;
 }
 
+
+#web-apis h2 {
+    margin-bottom: 0.5rem;
+}
+
 #tea-reader-screenshots, #tea-reader-screenshots-2 {
     flex-direction: row;
 }
@@ -297,10 +330,6 @@ img.portrait {
     text-shadow: 1px 1px 5px #000;
 }
 
-#thank-you {
-    font-size: 5rem;
-}
-
 #webide, #webide-debug, #webide-monitor, #chrome-devtools {
     padding-bottom: 0px;
 }
@@ -313,4 +342,16 @@ img.portrait {
     height: auto;
     max-width: none;
     width: auto;
+}
+
+#csp-priviledged-app h2 {
+    margin-bottom: 1rem;
+}
+
+#csp-priviledged-app h4 {
+    margin: 0 12rem 1rem 0;
+}
+
+#thank-you {
+    font-size: 5rem;
 }
