@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 5
+# version 6
 
 CACHE:
 images/firefoxos.png
@@ -7,10 +7,12 @@ images/johan.jpg
 images/panda-roux.png
 images/devices/flame.png
 images/icon/favicon.ico
-images/teareader/portrait_bookcase_covers.png
-images/teareader/portrait_bookcase_drawer.png
-images/teareader/portrait_book_reading.png
-images/teareader/portrait_book_ui.png
+images/teareader/portrait_bibliotheque_couvertures.png
+images/teareader/portrait_bibliotheque_drawer.png
+images/teareader/portrait_livre_lecture.png
+images/teareader/portrait_livre_options.png
+images/teareader/portrait_livre_toc.png
+images/teareader/portrait_livre_ui.png
 font/FiraSans-Light.eot
 font/FiraSans-Light.ttf
 font/FiraSans-Light.woff
