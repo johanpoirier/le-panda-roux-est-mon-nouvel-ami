@@ -112,6 +112,11 @@ span.row {
     color: white;
 }
 
+.green-text {
+    background-color: white;
+    color: #5F9B0A;
+}
+
 .orange {
     background-color: #FF4E00;
     color: white;
@@ -328,6 +333,63 @@ img.portrait {
     color: #333333;
     font-size: 4rem;
     text-shadow: 1px 1px 5px #000;
+}
+
+.epub {
+    align-items: center;
+    background-color: white;
+    border: 0.25rem solid white;
+    border-radius: 0.75rem;
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 1rem;
+    position: relative;
+    width: 90%;
+}
+
+.epub .epub-format {
+    font-size: 2.5rem;
+    margin: 0;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.epub .epub-arrow:after {
+    content: '\e81c';
+    display: inline-block;
+    font-family: "pandaroux";
+    font-style: normal;
+    font-weight: normal;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+}
+
+.epub .epub-file {
+    align-items: center;
+    background-image: url(../images/file.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 1.9rem;
+    height: 13vw;
+    justify-content: center;
+    margin: 0.5rem;
+    width: 10vw;
+}
+
+.epub .epub-file.double {
+    font-size: 3rem;
+    height: 18vw;
+    width: 14vw;
+}
+
+.epub .epub-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
 }
 
 #webide, #webide-debug, #webide-monitor, #chrome-devtools {
