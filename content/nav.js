@@ -28,8 +28,8 @@
     var topicId = hashReg.exec(window.location.href);
 
     sections = document.querySelectorAll('section');
-    key('left, esc, pageup', prevSlide);
-    key('right, space, enter, pagedown', nextSlide);
+    key('left, up, pageup', prevSlide);
+    key('right, down, space, enter, pagedown', nextSlide);
 
     if (topicId) {
       currentSection = topicId[1];

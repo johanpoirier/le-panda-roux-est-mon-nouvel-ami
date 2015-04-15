@@ -44,6 +44,13 @@ section {
     padding-bottom: 10rem;
 }
 
+section footer {
+    bottom: 0.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
@@ -97,6 +104,10 @@ span.row {
     padding: 1rem 2rem;
 }
 
+.hashtag {
+    margin: 0 1rem;
+}
+
 .blue {
     background-color: #00AACC;
     color: white;
@@ -107,14 +118,14 @@ span.row {
     color: #00AACC;
 }
 
-.green {
-    background-color: #5F9B0A;
+.lightgrey {
+    background-color: #2C393B;
     color: white;
 }
 
-.green-text {
+.lightgrey-text {
     background-color: white;
-    color: #5F9B0A;
+    color: #2C393B;
 }
 
 .orange {
@@ -157,39 +168,41 @@ img.portrait {
 }
 
 .legend-item {
-    color: #9f9f9f;
-    padding: 1rem;
+    background-color: #9f9f9f;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem 0.75rem 0.5rem;
 }
 
 .legend-item.certified {
-    color: #FF4E00;
+    background-color: white;
+    color: #333333;
 }
 
 .legend-item.priviledged {
-    color: #00AACC;
+    background-color: #00AACC;
 }
 
 .legend-item.standard {
-    border: 0.25rem solid gold;
-    border-radius: 1rem;
-    color: #000000;
-    padding: 0.75rem 1rem 1.25rem 1rem;
+    font-style: italic;
 }
 
 .cloud {
     text-align: center;
-    width: 100%;
+    width: 98%;
 }
 
 .cloud > span {
     background-color: #9f9f9f;
-    border: 0.25rem solid gold;
     border-radius: 1rem;
     color: white;
     font-size: 2.5vw;
     font-weight: bolder;
     line-height: 12vmin;
     padding: 1rem;
+    position: relative;
     width: auto;
     white-space: nowrap;
 }
@@ -199,12 +212,83 @@ img.portrait {
 }
 
 .cloud > span.certified {
-    background-color: #FF4E00;
+    background-color: white;
+    color: #333333;
 }
 
 .cloud > span.not-standard {
     border: none;
+    font-style: italic;
     font-weight: normal;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.stack span {
+    align-items: center;
+    background: none;
+    border: none;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.stack span > img {
+    max-height: 9rem;
+    max-width: 12rem;
+    width: auto;
+}
+
+.stack > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    width: 33.3333%;
+}
+
+.stack > div:after {
+    content: '.';
+    display: inline-block;
+    font-size: 1.5rem;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: -1.4rem;
+    transform: rotate(90deg);
+    transform-origin: 0 100%;
+}
+
+.stack > div.test {
+    background-color: #F4F4F4;
+}
+
+.stack > div.test:after {
+    content: 'tests';
+}
+
+.stack > div.libs {
+    background-color: #EAEAE7;
+}
+
+.stack > div.libs:after {
+    content: 'libs';
+}
+
+.stack > div.interaction {
+    background-color: #C7C7C7;
+}
+
+.stack > div.interaction:after {
+    content: 'user interaction';
 }
 
 .jauge {
@@ -322,19 +406,6 @@ img.portrait {
     width: 100%;
 }
 
-#tea-reader-stack img {
-    max-height: 12rem;
-    max-width: 16rem;
-}
-
-#tea-reader-stack span {
-    background: none;
-    border: none;
-    color: #333333;
-    font-size: 4rem;
-    text-shadow: 1px 1px 5px #000;
-}
-
 .epub {
     align-items: center;
     background-color: white;
@@ -373,17 +444,17 @@ img.portrait {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    font-size: 1.9rem;
-    height: 13vw;
+    font-size: 1.8rem;
+    height: 15.5vmin;
     justify-content: center;
     margin: 0.5rem;
-    width: 10vw;
+    width: 12vmin;
 }
 
 .epub .epub-file.double {
     font-size: 3rem;
-    height: 18vw;
-    width: 14vw;
+    height: 21vmin;
+    width: 16vmin;
 }
 
 .epub .epub-container {
@@ -404,6 +475,14 @@ img.portrait {
     height: auto;
     max-width: none;
     width: auto;
+}
+
+#tea-reader-stack h2 {
+    margin: 1rem 0;
+}
+
+#tea-reader-stack {
+    padding-bottom: 0;
 }
 
 #csp-priviledged-app h2 {
